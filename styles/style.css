@@ -105,6 +105,11 @@ font-style: normal;
     font-weight: 600;
 }
 
+.nav-button:hover{
+    box-shadow:5px 5px 8px  rgb(255, 68, 0);
+    font-size: 1.32rem;
+}
+
 
    .h-b{
      display: none; 
@@ -178,6 +183,13 @@ hr{
     border-radius: 12px;
     margin-top: 0px;
 
+}
+
+
+.banner-button:hover{
+  box-shadow: 5px 5px 10px skyblue;
+  font-size: 1.32rem;
+  color: rgb(135, 207, 235);
 }
 
 
@@ -592,6 +604,11 @@ width: 100%;
         width: 100%;
         height: auto;
         
+    }
+
+
+    .arrow-container{
+        display: none;
     }
 
 main{
