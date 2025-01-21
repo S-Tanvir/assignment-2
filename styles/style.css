@@ -193,7 +193,7 @@ hr{
 
     /* standard curriculum section */
      /* standard curriculum section */
-     
+
 .standard-curriculum{
     max-width: 1160px;
     height: auto;
@@ -210,6 +210,7 @@ hr{
     gap: 28.29px;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .curriculum-title{
@@ -284,6 +285,11 @@ hr{
 
 }
 
+.arrow-container{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
 
 
 
@@ -349,6 +355,7 @@ hr{
 
     .standard-curriculum-div{
         flex-wrap: wrap;
+        margin-bottom: 50px;
     }
 
     .curriculum-cards-1{
@@ -364,6 +371,7 @@ hr{
     .curriculum-cards-3{
         width: 100%;
         height: auto;
+        
     }
 
 
