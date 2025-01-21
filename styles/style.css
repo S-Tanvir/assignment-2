@@ -29,6 +29,23 @@ font-style: normal;
 /* body{
     max-width: 1440px;
 } */
+                /* marquee section */
+                 /* marquee section */
+
+.marquee{
+    max-width: 1160px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 4px solid orange;
+    border-radius: 5px;
+    padding: 8px;
+    color: skyblue;
+}
+
+
 
                  /* nav section */
                   /* nav section */
@@ -235,7 +252,7 @@ hr{
 
 .curriculum-cards-1{
     width: 368px;
-    height: 400px;
+    height: 480px;
     text-align: center;
     border-radius: 18.86px;
     background-image:linear-gradient(rgba(222, 245, 255, 1),rgba(255, 255, 255, 1));
@@ -246,7 +263,7 @@ hr{
 
 .curriculum-cards-2{
     width: 368px;
-    height: 400px;
+    height: 480px;
     text-align: center;
     border-radius: 18.86px;
     background-image:linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 1));
@@ -257,7 +274,7 @@ hr{
 
 .curriculum-cards-3{
     width: 368px;
-    height: 400px;
+    height: 480px;
     text-align: center;
     border-radius: 18.86px;
     background-image:linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
@@ -537,6 +554,21 @@ width: 100%;
 
 @media screen and (max-width:576px) {
 
+
+    .marquee{
+       
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        border: 4px solid orange;
+        border-radius: 5px;
+        padding: 5px;
+        color: skyblue;
+    
+
+    }
+
     .nav-title, .nav-middle, .nav-button{
         display: none;
         margin-bottom: 0px;
@@ -661,15 +693,6 @@ main{
         padding: 20px;
         text-align: left;
     }
-
-   
-
-
-   
-
-   
-
-
 
 
     
