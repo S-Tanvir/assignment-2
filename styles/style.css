@@ -26,12 +26,18 @@ font-style: normal;
     display: flex;
 }
 
-/* body{
+body{
     max-width: 1440px;
-} */
+    margin: 0 auto;
+}
                 /* marquee section */
                  /* marquee section */
 
+
+.marquee-section{
+    width: 100%;
+    height: auto;
+}
 .marquee{
     max-width: 1160px;
     margin: 0 auto;
@@ -50,6 +56,11 @@ font-style: normal;
                  /* nav section */
                   /* nav section */
 
+
+.nav{
+    width: 100%;
+    height: auto;
+}
 .nav-section{
     max-width: 1160px;
     height: auto;
@@ -153,7 +164,10 @@ hr{
 
               /* banner section */
               /* banner section */
-
+.banner{
+    width: 100%;
+    height: auto;
+}
 .banner-section{
     display: flex;
     max-width:1160px;
@@ -222,19 +236,22 @@ hr{
 
     /* standard curriculum section */
      /* standard curriculum section */
-
+.curriculum{
+    width: 100%;
+    height: auto;
+   background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
 .standard-curriculum{
     max-width: 1160px;
     height: auto;
     margin: 0 auto;
-    background-image:url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     text-align: center;
 }
 .standard-curriculum-div{
-  
+   max-width: 1160px;
+   margin: 0 auto;
     display: flex;
     gap: 28.29px;
     justify-content: space-between;
@@ -319,6 +336,10 @@ hr{
     margin-bottom: 60px;
 }
 
+
+
+
+
         /* story-section */
          /* story-section */
 
@@ -328,9 +349,6 @@ hr{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(254, 163, 1, 0.2)),url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: contain;
-  
-  
-  
  }        
 
 
@@ -338,7 +356,6 @@ hr{
 
     max-width: 1160px;
     margin: 0 auto;
-
 }
 
 .story-title{
@@ -427,9 +444,7 @@ hr{
     background-color: white;
     max-width: 290.69px;
     height: 301.61px;
-   
-    
-    
+     
 }
 
 
@@ -554,6 +569,9 @@ width: 100%;
 
 @media screen and (max-width:576px) {
 
+            /* marquee section */
+             /* marquee section */
+
 
     .marquee{
        
@@ -565,10 +583,16 @@ width: 100%;
         border-radius: 5px;
         padding: 5px;
         color: skyblue;
+        width: 93vw;
     
-
     }
 
+
+             /* nav section */
+             /* nav section */
+    .nav-section{
+        width: 93vw;
+    }
     .nav-title, .nav-middle, .nav-button{
         display: none;
         margin-bottom: 0px;
@@ -585,14 +609,18 @@ width: 100%;
 
     hr{
         display: block;
-        width: 100%;
+        width: 93vw;
         margin-top: 0px;
       
     }
 
 
+             /* banner section */
+             /* banner section */
+
 
     .banner-section{
+        width: 93vw;
         flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
@@ -616,8 +644,12 @@ width: 100%;
 
 
 
+             /* standard curriculum section */
+             /* standard curriculum section */
+
 
     .standard-curriculum-div{
+        width: 93vw;
         flex-wrap: wrap;
         margin-bottom: 50px;
     }
@@ -625,6 +657,7 @@ width: 100%;
     .curriculum-cards-1{
         width: 100%;
         height: auto;
+        
     }
 
     .curriculum-cards-2{
@@ -643,9 +676,17 @@ width: 100%;
         display: none;
     }
 
+
+             /* story section */
+             /* story section */
+
 main{
     width: 100%;
     margin: 0px;
+}
+
+.story-section{
+    width: 98vw;
 }
 
 .story-title{
@@ -688,12 +729,17 @@ main{
     }
 
 
+
+           /* footer section */
+           /* footer section */
+
     .footer-section{
         flex-direction: column;
         padding: 20px;
+        padding-bottom: 80px;
         text-align: left;
     }
 
-
+   
     
 }
